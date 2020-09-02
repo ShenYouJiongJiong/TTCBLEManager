@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTCBLEManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of TTCBLEManager.'
 
 # This description is used to generate tags and improve search results.
@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/LenJhon/TTCBLEManager'
+  s.homepage         = 'https://github.com/ShenYouJiongJiong/TTCBLEManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LenJhon' => 'lijiong@mcu168.com' }
-  s.source           = { :git => 'https://github.com/LenJhon/TTCBLEManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ShenYouJiongJiong/TTCBLEManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TTCBLEManager/Classes/**/*'
-  
+  s.vendored_libraries = "TTCBLEManager/Classes/libBLEManager.a"
+
   # s.resource_bundles = {
   #   'TTCBLEManager' => ['TTCBLEManager/Assets/*.png']
   # }

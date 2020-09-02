@@ -1,0 +1,16 @@
+PODS:
+  - TTCBLEManager (0.1.0)
+
+DEPENDENCIES:
+  - TTCBLEManager (from `../`)
+
+EXTERNAL SOURCES:
+  TTCBLEManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTCBLEManager: 7a5e152b8d9efd68374bf0b58ab757d1b2505b11
+
+PODFILE CHECKSUM: 48c2f6433af2bec5b5c3975cdc9f70ff3578d9b8
+
+COCOAPODS: 1.10.0.beta.2

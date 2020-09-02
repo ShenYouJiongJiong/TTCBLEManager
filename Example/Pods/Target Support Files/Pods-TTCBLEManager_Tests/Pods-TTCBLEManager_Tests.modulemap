@@ -1,0 +1,6 @@
+framework module Pods_TTCBLEManager_Tests {
+  umbrella header "Pods-TTCBLEManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

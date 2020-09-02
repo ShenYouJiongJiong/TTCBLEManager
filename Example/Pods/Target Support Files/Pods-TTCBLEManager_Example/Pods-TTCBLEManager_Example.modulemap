@@ -1,0 +1,6 @@
+framework module Pods_TTCBLEManager_Example {
+  umbrella header "Pods-TTCBLEManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

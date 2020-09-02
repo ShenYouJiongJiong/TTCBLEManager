@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3D37370F85457FA07D5FCB64E989D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34C824BA240C4FABFBFA24AFAB9E4879 /* Pods-TTCBLEManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA659A28F2A79DB98D341A4F5C96D88 /* Pods-TTCBLEManager_Example-dummy.m */; };
+		92A40BCBB6A4A9E0A82EE9B0A31EF2B4 /* Pods-TTCBLEManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA511D32B15ADF7BB0613CF753525F5 /* Pods-TTCBLEManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC3882CBFE993807DEBFCF9A455413 /* Pods-TTCBLEManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F839922C3375CF5D54DD38D479BEE24 /* Pods-TTCBLEManager_Tests-dummy.m */; };
+		A170CD27220BB03499E1BFDE76F40512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A228AF75480FC7012BE1E2EF181A8C56 /* TTCBLEManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E0A2B3BCEAA580BE1E576704DCA48F /* TTCBLEManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A403CD7FC22A534B16B9E0E2BB84FA23 /* Pods-TTCBLEManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9B901568A01E79D9D036BEE16E2871 /* Pods-TTCBLEManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0C2630FA596F3A987E88BE33498878 /* TTCBLEManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A96E8EE58F20D1D51C5FA38A593D0 /* TTCBLEManager-dummy.m */; };
+		ED9B184B8CF54A97608728F27456BA4F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DBB6891CB6A4C069B0003E12C9BAFF /* ReplaceMe.m */; };
+		F303EBF941DC31EA252ECD6DB1769FAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F968D57FC44EF77EFF2497BF35D2C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14D1C70A10D50DEFABE6324DA4B14FD;
+			remoteInfo = TTCBLEManager;
+		};
+		8CB5A5607851E32FB53894502498F890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B223128F1F5F5B2CE329E843C7DE404A;
+			remoteInfo = "Pods-TTCBLEManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E834CA9C12F96AAB15F4D85CBC839D /* Pods-TTCBLEManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTCBLEManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		1AB021DD25B34C0E8255C735C7DA7E4D /* TTCBLEManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTCBLEManager.modulemap; sourceTree = "<group>"; };
+		21FC9909C8059A491410704DCED290B3 /* Pods-TTCBLEManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTCBLEManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C9B901568A01E79D9D036BEE16E2871 /* Pods-TTCBLEManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTCBLEManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2F78666E8FF4124C229822CF1228943B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F839922C3375CF5D54DD38D479BEE24 /* Pods-TTCBLEManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTCBLEManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		4034960C95A0B559D863D78A264578E6 /* Pods_TTCBLEManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTCBLEManager_Example.framework; path = "Pods-TTCBLEManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4886DC007B77D4DBFD1E695B7F7665C9 /* TTCBLEManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTCBLEManager.debug.xcconfig; sourceTree = "<group>"; };
+		4EC604A6A7EE8128D9A3566802485F56 /* Pods-TTCBLEManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTCBLEManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51908A099697F985F42EC1D51C7167D9 /* Pods-TTCBLEManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCBLEManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5473FEC95038002AB4A1D6C6CB29C13A /* TTCBLEManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTCBLEManager-prefix.pch"; sourceTree = "<group>"; };
+		555ECFEA7F20555E0BECA69082654865 /* Pods-TTCBLEManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCBLEManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55CA20C3CCD5A6E8F69689226880A692 /* Pods-TTCBLEManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCBLEManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA511D32B15ADF7BB0613CF753525F5 /* Pods-TTCBLEManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTCBLEManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		5E0A96E8EE58F20D1D51C5FA38A593D0 /* TTCBLEManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTCBLEManager-dummy.m"; sourceTree = "<group>"; };
+		7DF9519E807BBA57350F65BCCD6B99C7 /* TTCBLEManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTCBLEManager.framework; path = TTCBLEManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5F5A5C77CFF031FCB9DA0EFB9F550C /* Pods-TTCBLEManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTCBLEManager_Example.modulemap"; sourceTree = "<group>"; };
+		8218088C16655AB0346B20EFDE54A800 /* Pods-TTCBLEManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTCBLEManager_Example-Info.plist"; sourceTree = "<group>"; };
+		8CA659A28F2A79DB98D341A4F5C96D88 /* Pods-TTCBLEManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTCBLEManager_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E4290A44B58BDBCBD9884A81A08E1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A5FD5A657930848741006CC1F37C10D9 /* TTCBLEManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTCBLEManager-Info.plist"; sourceTree = "<group>"; };
+		AF6DF445D887922EA93C3250442AA1D3 /* Pods-TTCBLEManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTCBLEManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AFD13C1D9006E300B2CB435D5C1A3268 /* Pods_TTCBLEManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTCBLEManager_Tests.framework; path = "Pods-TTCBLEManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E0A2B3BCEAA580BE1E576704DCA48F /* TTCBLEManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTCBLEManager-umbrella.h"; sourceTree = "<group>"; };
+		C0CB124CE981A86B65157ABBDA9330F2 /* TTCBLEManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTCBLEManager.release.xcconfig; sourceTree = "<group>"; };
+		C537FB84934836034B20BDF2F4B68CC6 /* Pods-TTCBLEManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTCBLEManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3DBB6891CB6A4C069B0003E12C9BAFF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TTCBLEManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D678E1F507B60A642A5989E59A9A7A72 /* Pods-TTCBLEManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTCBLEManager_Tests.modulemap"; sourceTree = "<group>"; };
+		E699C991824BA6A3197E49A04679E58C /* TTCBLEManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTCBLEManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E837123CF8A41F57E47189E45233E35E /* Pods-TTCBLEManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCBLEManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EE95EDE4801F354D392731752939C589 /* Pods-TTCBLEManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTCBLEManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA843BD8A0C495AF3FF31B471C47998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3D37370F85457FA07D5FCB64E989D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8056B55F5E68CE2F10CC6DF081958FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F303EBF941DC31EA252ECD6DB1769FAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E47A4A8EFD2A6B3F784E7515F971A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A170CD27220BB03499E1BFDE76F40512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079B0C1DDA5B7DCDF0C2957D0F6B5712 /* Pods-TTCBLEManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E5F5A5C77CFF031FCB9DA0EFB9F550C /* Pods-TTCBLEManager_Example.modulemap */,
+				21FC9909C8059A491410704DCED290B3 /* Pods-TTCBLEManager_Example-acknowledgements.markdown */,
+				EE95EDE4801F354D392731752939C589 /* Pods-TTCBLEManager_Example-acknowledgements.plist */,
+				8CA659A28F2A79DB98D341A4F5C96D88 /* Pods-TTCBLEManager_Example-dummy.m */,
+				AF6DF445D887922EA93C3250442AA1D3 /* Pods-TTCBLEManager_Example-frameworks.sh */,
+				8218088C16655AB0346B20EFDE54A800 /* Pods-TTCBLEManager_Example-Info.plist */,
+				5BA511D32B15ADF7BB0613CF753525F5 /* Pods-TTCBLEManager_Example-umbrella.h */,
+				E837123CF8A41F57E47189E45233E35E /* Pods-TTCBLEManager_Example.debug.xcconfig */,
+				555ECFEA7F20555E0BECA69082654865 /* Pods-TTCBLEManager_Example.release.xcconfig */,
+			);
+			name = "Pods-TTCBLEManager_Example";
+			path = "Target Support Files/Pods-TTCBLEManager_Example";
+			sourceTree = "<group>";
+		};
+		1593A7A1BFB8A7EFDDC9C518793D8156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4034960C95A0B559D863D78A264578E6 /* Pods_TTCBLEManager_Example.framework */,
+				AFD13C1D9006E300B2CB435D5C1A3268 /* Pods_TTCBLEManager_Tests.framework */,
+				7DF9519E807BBA57350F65BCCD6B99C7 /* TTCBLEManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D3463ED8BB3E1A9171FE31927F3469 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1FB28037B0DBBC91F6874C155A32F0D /* TTCBLEManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90C1CE0D44F292F3E5645DD9D1E7175D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2F78666E8FF4124C229822CF1228943B /* LICENSE */,
+				A5E4290A44B58BDBCBD9884A81A08E1C /* README.md */,
+				E699C991824BA6A3197E49A04679E58C /* TTCBLEManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B85310344222D7D7125BA3A7177F05A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB021DD25B34C0E8255C735C7DA7E4D /* TTCBLEManager.modulemap */,
+				5E0A96E8EE58F20D1D51C5FA38A593D0 /* TTCBLEManager-dummy.m */,
+				A5FD5A657930848741006CC1F37C10D9 /* TTCBLEManager-Info.plist */,
+				5473FEC95038002AB4A1D6C6CB29C13A /* TTCBLEManager-prefix.pch */,
+				B7E0A2B3BCEAA580BE1E576704DCA48F /* TTCBLEManager-umbrella.h */,
+				4886DC007B77D4DBFD1E695B7F7665C9 /* TTCBLEManager.debug.xcconfig */,
+				C0CB124CE981A86B65157ABBDA9330F2 /* TTCBLEManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTCBLEManager";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1FB28037B0DBBC91F6874C155A32F0D /* TTCBLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBB6891CB6A4C069B0003E12C9BAFF /* ReplaceMe.m */,
+				90C1CE0D44F292F3E5645DD9D1E7175D /* Pod */,
+				B85310344222D7D7125BA3A7177F05A4 /* Support Files */,
+			);
+			name = TTCBLEManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD480DEDFFF5359E010C2D365D6E7A17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079B0C1DDA5B7DCDF0C2957D0F6B5712 /* Pods-TTCBLEManager_Example */,
+				E64EB9A30746DFAA2DECBAF4252310AC /* Pods-TTCBLEManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				59D3463ED8BB3E1A9171FE31927F3469 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1593A7A1BFB8A7EFDDC9C518793D8156 /* Products */,
+				CD480DEDFFF5359E010C2D365D6E7A17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64EB9A30746DFAA2DECBAF4252310AC /* Pods-TTCBLEManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D678E1F507B60A642A5989E59A9A7A72 /* Pods-TTCBLEManager_Tests.modulemap */,
+				4EC604A6A7EE8128D9A3566802485F56 /* Pods-TTCBLEManager_Tests-acknowledgements.markdown */,
+				C537FB84934836034B20BDF2F4B68CC6 /* Pods-TTCBLEManager_Tests-acknowledgements.plist */,
+				3F839922C3375CF5D54DD38D479BEE24 /* Pods-TTCBLEManager_Tests-dummy.m */,
+				18E834CA9C12F96AAB15F4D85CBC839D /* Pods-TTCBLEManager_Tests-Info.plist */,
+				2C9B901568A01E79D9D036BEE16E2871 /* Pods-TTCBLEManager_Tests-umbrella.h */,
+				55CA20C3CCD5A6E8F69689226880A692 /* Pods-TTCBLEManager_Tests.debug.xcconfig */,
+				51908A099697F985F42EC1D51C7167D9 /* Pods-TTCBLEManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTCBLEManager_Tests";
+			path = "Target Support Files/Pods-TTCBLEManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4750B6428DB8456BAF8D7AC8701BD4DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A228AF75480FC7012BE1E2EF181A8C56 /* TTCBLEManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B4C5128FF7F7D4C95683328867E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A403CD7FC22A534B16B9E0E2BB84FA23 /* Pods-TTCBLEManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C047F48AF149A1CDA3CD42A061500130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A40BCBB6A4A9E0A82EE9B0A31EF2B4 /* Pods-TTCBLEManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1DC249989C0E880B2AD3811D5ABE82C /* Pods-TTCBLEManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BD8E9BCC5BAD7FC143664A9D698610 /* Build configuration list for PBXNativeTarget "Pods-TTCBLEManager_Tests" */;
+			buildPhases = (
+				59B4C5128FF7F7D4C95683328867E8F7 /* Headers */,
+				4EFA3A87B9B2B18FBEC4320D94E3811F /* Sources */,
+				8E47A4A8EFD2A6B3F784E7515F971A86 /* Frameworks */,
+				14B61CC21FF3C3501FCCEFE68F484CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28323B706916AF9C1BF33C3174707ED /* PBXTargetDependency */,
+			);
+			name = "Pods-TTCBLEManager_Tests";
+			productName = "Pods-TTCBLEManager_Tests";
+			productReference = AFD13C1D9006E300B2CB435D5C1A3268 /* Pods_TTCBLEManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B223128F1F5F5B2CE329E843C7DE404A /* Pods-TTCBLEManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36A568F87DFB928BC77E4296B71BE92 /* Build configuration list for PBXNativeTarget "Pods-TTCBLEManager_Example" */;
+			buildPhases = (
+				C047F48AF149A1CDA3CD42A061500130 /* Headers */,
+				857370E3960DC7DFCA438597CD353FF5 /* Sources */,
+				2CA843BD8A0C495AF3FF31B471C47998 /* Frameworks */,
+				F3AD87E7F1E08DA7212E302A2575CD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC971E93D426C0A9B8634FAF1E1DBB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTCBLEManager_Example";
+			productName = "Pods-TTCBLEManager_Example";
+			productReference = 4034960C95A0B559D863D78A264578E6 /* Pods_TTCBLEManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5984EE9704678739C795EB2B37DAD813 /* Build configuration list for PBXNativeTarget "TTCBLEManager" */;
+			buildPhases = (
+				4750B6428DB8456BAF8D7AC8701BD4DE /* Headers */,
+				099E8FF3082C12D8083318B264000450 /* Sources */,
+				8056B55F5E68CE2F10CC6DF081958FF4 /* Frameworks */,
+				0ACE088B211288CE61E8889B6EA78C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCBLEManager;
+			productName = TTCBLEManager;
+			productReference = 7DF9519E807BBA57350F65BCCD6B99C7 /* TTCBLEManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1593A7A1BFB8A7EFDDC9C518793D8156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B223128F1F5F5B2CE329E843C7DE404A /* Pods-TTCBLEManager_Example */,
+				B1DC249989C0E880B2AD3811D5ABE82C /* Pods-TTCBLEManager_Tests */,
+				E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACE088B211288CE61E8889B6EA78C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B61CC21FF3C3501FCCEFE68F484CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD87E7F1E08DA7212E302A2575CD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099E8FF3082C12D8083318B264000450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9B184B8CF54A97608728F27456BA4F /* ReplaceMe.m in Sources */,
+				AA0C2630FA596F3A987E88BE33498878 /* TTCBLEManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFA3A87B9B2B18FBEC4320D94E3811F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FC3882CBFE993807DEBFCF9A455413 /* Pods-TTCBLEManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857370E3960DC7DFCA438597CD353FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C824BA240C4FABFBFA24AFAB9E4879 /* Pods-TTCBLEManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC971E93D426C0A9B8634FAF1E1DBB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTCBLEManager;
+			target = E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */;
+			targetProxy = 7F968D57FC44EF77EFF2497BF35D2C79 /* PBXContainerItemProxy */;
+		};
+		C28323B706916AF9C1BF33C3174707ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTCBLEManager_Example";
+			target = B223128F1F5F5B2CE329E843C7DE404A /* Pods-TTCBLEManager_Example */;
+			targetProxy = 8CB5A5607851E32FB53894502498F890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0514C90DEBE6B4BBA3A781BDC8885EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4886DC007B77D4DBFD1E695B7F7665C9 /* TTCBLEManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTCBLEManager/TTCBLEManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTCBLEManager/TTCBLEManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTCBLEManager/TTCBLEManager.modulemap";
+				PRODUCT_MODULE_NAME = TTCBLEManager;
+				PRODUCT_NAME = TTCBLEManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CB58AB1924244C7B02F6FC111990802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E837123CF8A41F57E47189E45233E35E /* Pods-TTCBLEManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTCBLEManager_Example/Pods-TTCBLEManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTCBLEManager_Example/Pods-TTCBLEManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A6474AA469D418C3C90456B87B99F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CB124CE981A86B65157ABBDA9330F2 /* TTCBLEManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTCBLEManager/TTCBLEManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTCBLEManager/TTCBLEManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTCBLEManager/TTCBLEManager.modulemap";
+				PRODUCT_MODULE_NAME = TTCBLEManager;
+				PRODUCT_NAME = TTCBLEManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A25B702E767A390218DEC2609AE1BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51908A099697F985F42EC1D51C7167D9 /* Pods-TTCBLEManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTCBLEManager_Tests/Pods-TTCBLEManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTCBLEManager_Tests/Pods-TTCBLEManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DF792B5675818867C95F03EE9A5D3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90E77DCA7BE513ED20C1051363488DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CA20C3CCD5A6E8F69689226880A692 /* Pods-TTCBLEManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTCBLEManager_Tests/Pods-TTCBLEManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTCBLEManager_Tests/Pods-TTCBLEManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C22CFD9D10BD35D755DC60CC3885D37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555ECFEA7F20555E0BECA69082654865 /* Pods-TTCBLEManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTCBLEManager_Example/Pods-TTCBLEManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTCBLEManager_Example/Pods-TTCBLEManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE55861AB8BDFB3786DDE452F83A4836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BD8E9BCC5BAD7FC143664A9D698610 /* Build configuration list for PBXNativeTarget "Pods-TTCBLEManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E77DCA7BE513ED20C1051363488DCB /* Debug */,
+				7A25B702E767A390218DEC2609AE1BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF792B5675818867C95F03EE9A5D3C6 /* Debug */,
+				CE55861AB8BDFB3786DDE452F83A4836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5984EE9704678739C795EB2B37DAD813 /* Build configuration list for PBXNativeTarget "TTCBLEManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0514C90DEBE6B4BBA3A781BDC8885EEE /* Debug */,
+				6A6474AA469D418C3C90456B87B99F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36A568F87DFB928BC77E4296B71BE92 /* Build configuration list for PBXNativeTarget "Pods-TTCBLEManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB58AB1924244C7B02F6FC111990802 /* Debug */,
+				C22CFD9D10BD35D755DC60CC3885D37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

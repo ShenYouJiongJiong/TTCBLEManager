@@ -1,0 +1,6 @@
+framework module TTCBLEManager {
+  umbrella header "TTCBLEManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
