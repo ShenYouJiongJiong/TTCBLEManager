@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TTCBLEManager_Example' do
+  pod 'TTCBLEManager', :path => '../'
+
+  target 'TTCBLEManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
